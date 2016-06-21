@@ -1,0 +1,32 @@
+<!---------
+<form name="input" action="/search" method="get">
+  <nav>
+    <div class="nav-wrapper">
+        <div class="input-field deep-purple lighten-3">
+	   <input class="form-control validate" id="term" name="term" type="search">
+	   <button type="submit" class="btn btn-primary input-lg">Search</button>
+           <label for="search"><i class="mdi-action-search"></i></label>
+           <i class="mdi-navigation-close"></i>
+        </div>
+      </form>
+    </div>
+  </nav>
+</form> 
+-------->
+     <div class="starter-template">
+        <h1>服装领域搜索引擎</h1>
+        <p class="lead">enjoy yourself!</p>
+        <form action="/search" method="get" id="search_form">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-3 col-md-3 col-lg-3">&nbsp;</div>
+              <div class="col-xs-6 col-md-6 col-lg-6">
+                <input type="text" class="form-control input-lg" name="term" id="term" placeholder="Enter Search Text..." >
+                <button type="submit" class="btn btn-primary input-lg">Search</button>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3">&nbsp;</div>
+            </div>
+          </div>
+        </form>
+      </div>
+

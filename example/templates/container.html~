@@ -1,0 +1,10 @@
+<h2>总结果: {{results['hits']['total']}}</h2>
+
+      <ol>
+      {% for hit in results['hits']['hits'] %}
+        <li><a href="{{ hit['_source']['link'] }}" target="_new">{{ hit['_source']['title'][0] }}</a></li>
+      {% endfor %}
+      </ol>
+
+
+
